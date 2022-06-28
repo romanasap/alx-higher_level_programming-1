@@ -5,7 +5,7 @@ while i >= 97:
     if i % 2 != 0:
         i = i - 32
         flag = 1
-    print("{:s}".format(chr(i)), end="")
+    print("{:s}".format(chr(i)), end="", flush=True)
     if flag == 1:
         i = i + 32
     i = i - 1
