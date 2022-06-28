@@ -1,3 +1,3 @@
 #!/usr/bin/python3
 for a in "abcdefghijklmnopqrstuvwxyz":
-    print("{}".format(a), flush=True)
+    print("{}".format(a), end="", flush=True)
