@@ -7,8 +7,8 @@
  */
 int is_palindrome(listint_t **head)
 {
-    const listint_t *current;
-    const listint_t *tail;
+    //const listint_t *current;
+    //const listint_t *tail;
     unsigned int n = 0;
 
     //Get length
